@@ -74,7 +74,7 @@ A comprehensive web application providing accurate pricing information for diagn
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ap-diagnostic-tests.git
+   git clone https://github.com/DigitalMarketingMechanics/ap-diagnostic-tests.git
    cd ap-diagnostic-tests
    ```
 
@@ -90,11 +90,11 @@ A comprehensive web application providing accurate pricing information for diagn
 ### File Structure
 ```
 ap-diagnostic-tests/
-â”œâ”€â”€ index.html          # Main HTML file
-â”œâ”€â”€ style.css           # Stylesheet
-â”œâ”€â”€ app.js             # JavaScript functionality
-â”œâ”€â”€ data.json          # Test data (optional)
-â””â”€â”€ README.md          # This file
+index.html          # Main HTML file
+style.css           # Stylesheet
+app.js             # JavaScript functionality
+data.json          # Test data (optional)
+README.md          # This file
 ```
 
 ##  Usage
@@ -191,7 +191,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or issues:
 - Create an issue on GitHub
-- Email: support@apdiagnostictests.com (if applicable)
+- Email:digitalmarketingmechanics03@gmail.com (if applicable)
 
 ##  Version History
 
@@ -205,6 +205,6 @@ For questions, suggestions, or issues:
 
 ---
 
-**Made with â¤ï¸ for the people of Andhra Pradesh**
+**Made with AI for the people of Andhra Pradesh**
 
 *Helping make healthcare transparent and accessible across all districts*
