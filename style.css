@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(135deg, #2c5aa0, #1e4077);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.header h1 i {
+    margin-right: 15px;
+    color: #64b5f6;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* Navigation Styles */
+.navbar {
+    background: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-bottom: 3px solid #2c5aa0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.search-container {
+    position: relative;
+    flex: 1;
+    min-width: 300px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 45px;
+    border: 2px solid #e0e0e0;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #2c5aa0;
+    box-shadow: 0 0 0 3px rgba(44, 90, 160, 0.1);
+}
+
+.filter-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.filter-select {
+    padding: 10px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: #2c5aa0;
+}
+
+/* Main Content */
+.main-content {
+    padding: 2rem 0;
+}
+
+/* Districts Section */
+.districts-info {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+}
+
+.districts-info h2 {
+    color: #2c5aa0;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.districts-info h2 i {
+    margin-right: 10px;
+}
+
+.districts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.district-tag {
+    background: #f0f7ff;
+    color: #2c5aa0;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    text-align: center;
+    border: 1px solid #e3f2fd;
+    transition: all 0.3s ease;
+}
+
+.district-tag:hover {
+    background: #2c5aa0;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Tests Section */
+.tests-section h2 {
+    color: #2c5aa0;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.tests-section h2 i {
+    margin-right: 10px;
+}
+
+.tests-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+.test-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+
+.test-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    border-color: #2c5aa0;
+}
+
+.test-category {
+    background: #2c5aa0;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.test-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.test-description {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.price-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid #f0f0f0;
+}
+
+.price-range {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #2c5aa0;
+}
+
+.popular-badge {
+    background: #ff4757;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Loading State */
+.loading {
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Footer */
+.footer {
+    background: #2c5aa0;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+}
+
+.disclaimer {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .navbar .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .search-container {
+        min-width: unset;
+    }
+    
+    .filter-container {
+        justify-content: space-between;
+    }
+    
+    .tests-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .districts-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    
+    .price-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}
+
+/* Animation for test cards */
+.test-card {
+    opacity: 0;
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+          }
