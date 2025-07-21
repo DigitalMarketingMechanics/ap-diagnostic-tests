@@ -1,0 +1,31 @@
+{
+  "name": "ap-diagnostic-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive web application for diagnostic test pricing across all 26 districts of Andhra Pradesh",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 3000",
+    "deploy": "echo 'Ready for deployment'"
+  },
+  "keywords": [
+    "andhra-pradesh",
+    "diagnostic-tests",
+    "healthcare",
+    "medical-pricing",
+    "india",
+    "web-application"
+  ],
+  "author": "AP Diagnostic Tests Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalMarketingMechanics/ap-diagnostic-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DigitalMarketingMechanics/ap-diagnostic-tests/issues"
+  },
+  "homepage": "https://github.com/DigitalMarketingMechanics/ap-diagnostic-tests#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
