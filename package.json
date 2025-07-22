@@ -20,12 +20,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DigitalMarketingMechanics/ap-diagnostic-tests.git"
+    "url": "git+https://github.com/DigitalMarketingMechanics/ap-diagnostic-tests.git"
   },
   "bugs": {
     "url": "https://github.com/DigitalMarketingMechanics/ap-diagnostic-tests/issues"
   },
   "homepage": "https://github.com/DigitalMarketingMechanics/ap-diagnostic-tests#readme",
-  "devDependencies": {},
-  "dependencies": {}
+  "devDependencies": {}
 }
