@@ -1,0 +1,32 @@
+# Quick Git Commands for GitHub Setup
+
+## Step 1: Initialize Repository
+```bash
+git init
+git add .
+git commit -m "Initial commit: AP Diagnostic Tests web application"
+```
+
+## Step 2: Connect to GitHub (replace YOURUSERNAME with your GitHub username)
+```bash
+git remote add origin https://github.com/DigitalMarketingMechanics/ap-diagnostic-tests.git
+git branch -M main  
+git push -u origin main
+```
+
+## Step 3: Future Updates
+```bash
+git add .
+git commit -m "Update: describe your changes"
+git push origin main
+```
+
+## Repository URL Structure
+- Repository: https://github.com/YOURUSERNAME/ap-diagnostic-tests
+- GitHub Pages: https://YOURUSERNAME.github.io/ap-diagnostic-tests/
+- Clone URL: git@github.com:YOURUSERNAME/ap-diagnostic-tests.git
+
+Remember to:
+1. Create the repository on GitHub first
+2. Replace YOURUSERNAME with your actual GitHub username
+3. Make sure you have Git installed and configured
