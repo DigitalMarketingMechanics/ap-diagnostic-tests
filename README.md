@@ -109,10 +109,10 @@ README.md          # This file
 
 | Test Category | Price Range | Popular Tests |
 |---------------|-------------|---------------|
-| Blood Tests | â‚¹80 - â‚¹1,367 | CBC, Thyroid Profile, HbA1c |
-| Imaging Tests | â‚¹170 - â‚¹10,000 | X-Ray Chest, MRI Brain |
-| Cardiac Tests | â‚¹150 - â‚¹4,000 | ECG, 2D Echo |
-| Health Packages | â‚¹599 - â‚¹6,249 | Basic Checkup, Comprehensive |
+| Blood Tests | 80 - 1,367 | CBC, Thyroid Profile, HbA1c |
+| Imaging Tests | 170 - 10,000 | X-Ray Chest, MRI Brain |
+| Cardiac Tests | 150 - 4,000 | ECG, 2D Echo |
+| Health Packages | 599 - 6,249 | Basic Checkup, Comprehensive |
 
 ##  Customization
 
