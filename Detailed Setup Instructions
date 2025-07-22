@@ -1,0 +1,75 @@
+# GitHub Repository Setup Guide
+
+## Quick Setup Commands
+
+### 1. Initialize Git Repository
+```bash
+git init
+git add .
+git commit -m "Initial commit: Andhra Pradesh Diagnostic Tests web application"
+```
+
+### 2. Create GitHub Repository
+1. Go to https://github.com/new
+2. Repository name: `ap-diagnostic-tests` (or your preferred name)
+3. Description: "Comprehensive web application for diagnostic test pricing in Andhra Pradesh"
+4. Choose Public or Private
+5. Don't initialize with README (we already have one)
+6. Click "Create repository"
+
+### 3. Link Local Repository to GitHub
+```bash
+git remote add origin https://github.com/DigitalMarketingMechanics/ap-diagnostic-tests.git
+git branch -M main
+git push -u origin main
+```
+
+### 4. Enable GitHub Pages (Optional)
+1. Go to your repository settings
+2. Scroll to "Pages" section
+3. Source: Deploy from a branch
+4. Branch: main / (root)
+5. Save
+6. Your site will be available at: https://YOURUSERNAME.github.io/ap-diagnostic-tests/
+
+## Repository Features to Enable
+
+### Issues
+Enable Issues for bug reports and feature requests
+
+### Discussions
+Enable Discussions for community questions
+
+### Security
+Add security policy and vulnerability reporting
+
+### Actions
+Set up GitHub Actions for automated testing (optional)
+
+## Suggested Repository Topics
+Add these topics to your repository for better discoverability:
+- `healthcare`
+- `diagnostic-tests`
+- `medical-pricing`
+- `andhra-pradesh`
+- `india`
+- `web-application`
+- `javascript`
+- `html-css`
+- `responsive-design`
+
+## File Structure Overview
+```
+ap-diagnostic-tests/
+â”œâ”€â”€ index.html              # Main application file
+â”œâ”€â”€ style.css               # Styles and responsive design
+â”œâ”€â”€ app.js                  # Application logic and interactivity
+â”œâ”€â”€ data.json               # Test data and pricing information
+â”œâ”€â”€ README.md               # Project documentation
+â”œâ”€â”€ package.json            # Project metadata and scripts
+â”œâ”€â”€ LICENSE                 # MIT license file
+â”œâ”€â”€ .gitignore             # Git ignore rules
+â””â”€â”€ GITHUB_SETUP.md        # This setup guide
+```
+
+Remember to replace `YOURUSERNAME` with your actual GitHub username!
